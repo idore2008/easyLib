@@ -1,0 +1,29 @@
+{
+    "name": "idoregroup/easylib",
+    "type": "library",
+    "description": "This is a php library",
+    "homepage": "https://www.baidu.com",
+    "license": "Apache-2.0",
+    "time": "2017-02-17",
+    "keywords": [
+        "PHP", "Lib", "..." 
+     ],
+    "authors": [
+        {
+            "name": "jtboy",
+            "email": "936188403@qq.com",
+            "homepage": "http://idore2008.site/",
+            "role": "owner"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*"
+    },
+    "autoload" : {
+        "psr-4": {"easylib\\": "src/"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
